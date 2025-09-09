@@ -1,0 +1,97 @@
+/* Overlay tối phía sau modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.6); /* dịu hơn */
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Khung modal */
+.modal-content {
+  background: var(--light);
+  border-radius: 16px;
+  width: 600px;
+  max-width: 90%;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); /* bóng dịu hơn */
+  overflow: hidden; /* để header bo tròn */
+  font-family: 'Poppins', sans-serif;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* Header của modal */
+.modal-header {
+  background: linear-gradient(135deg, #24BAE3, #D000F7); /* giống nút */
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nút đóng trong header */
+.modal-header .close-btn {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.modal-header .close-btn:hover {
+  transform: scale(1.15);
+  color: #ffe4ff;
+}
+
+/* Nội dung bên trong */
+.modal-body {
+  padding: 20px;
+  color: var(--color-text);
+}
+.modal-body h3 {
+  margin: 12px 0 8px;
+}
+
+/* Danh sách tech */
+#modal-tech li {
+  background: linear-gradient(135deg, #24BAE3, #D000F7);
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Link GitHub */
+#modal-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #24BAE3, #D000F7);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+#modal-link:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Hiệu ứng xuất hiện */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes slideIn {
+  from {transform: translateY(-40px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
