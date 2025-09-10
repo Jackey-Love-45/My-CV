@@ -69,39 +69,39 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectData = [
     {
       title: "Music Player App",
-      desc: "Ứng dụng nghe nhạc với playlist, phát nhạc online/offline.",
+      desc: "Ứng dụng nghe nhạc với playlist, phát nhạc online/offline, đi kèm với các tính năng phát nhanh, tải nhạc, lặp lại bài hát, chuyển bài.",
       tech: ["JavaScript", "HTML5", "CSS3"],
-      link: "https://github.com/demo/music-player"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     },
     {
       title: "Burger Store",
-      desc: "Website bán burger với giỏ hàng và thanh toán.",
+      desc: "Website bán burger với các chức năng đăng nhập, đănh ký, bảo mật, phân quyền, lịch sử mua hàng, thêm giỏ hàng, thanh toán bằng các phương thức thanh toán cơ bản",
       tech: ["ReactJS", "Firebase", "Bootstrap"],
-      link: "https://github.com/demo/burger-store"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     },
     {
       title: "Resort Management",
-      desc: "Quản lý resort: đặt phòng, dịch vụ, khách hàng.",
+      desc: "Quản lý resort: đăng nhập, phân quyền, bảo mật, đặt phòng, dịch vụ, khách hàng, quản lý nhân viên, khách hàng, và các dịch vụ đang cung cấp.",
       tech: ["Java Spring Boot", "MySQL", "JWT"],
-      link: "https://github.com/demo/resort-management"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     },
     {
       title: "Sporting Goods Store",
-      desc: "E-commerce shop bán dụng cụ thể thao.",
+      desc: "E-commerce shop bán dụng cụ thể thao, sử dụng các chức năng cơ bản của 1 trang web bán hàng online",
       tech: ["Angular", "Firebase", "NodeJS"],
-      link: "https://github.com/demo/sporting-goods"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     },
     {
       title: "Social Network App",
-      desc: "Ứng dụng mạng xã hội với đăng bài, chat, follow.",
+      desc: "Ứng dụng mạng xã hội với đăng bài, chat, theo dõi, bình luận.",
       tech: ["React Native", "NodeJS", "MongoDB"],
-      link: "https://github.com/demo/social-network"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     },
     {
       title: "Fast Food Store",
       desc: "App đặt đồ ăn nhanh với thanh toán online.",
       tech: ["VueJS", "ExpressJS", "Firebase"],
-      link: "https://github.com/demo/fastfood-store"
+      link: "https://github.com/Jackey-Love-45/CV-TuanLinh"
     }
   ];
 
